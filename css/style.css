@@ -99,20 +99,20 @@ main {
 
 .arrows .slick-arrow.slick-prev {
     left: 0;
-    background: url(/images/icons/arrow-left.svg) no-repeat center center, #fff;
+    background: url(./images/icons/arrow-left.svg) no-repeat center center, #fff;
 }
 
 .arrows .slick-arrow.slick-prev:hover {
-    background: url(/images/icons/arrow-left.svg) no-repeat center center, #F2F2F2;
+    background: url(./images/icons/arrow-left.svg) no-repeat center center, #F2F2F2;
 }
 
 .arrows .slick-arrow.slick-next {
     left: 6.4%;
-    background: url(/images/icons/arrow-right.svg) no-repeat center center, #fff;
+    background: url(./images/icons/arrow-right.svg) no-repeat center center, #fff;
 }
 
 .arrows .slick-arrow.slick-next:hover {
-    background: url(/images/icons/arrow-right.svg) no-repeat center center, #F2F2F2;
+    background: url(./images/icons/arrow-right.svg) no-repeat center center, #F2F2F2;
 }
 
 .sliderLeft {
