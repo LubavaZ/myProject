@@ -295,15 +295,15 @@ footer .wrapper {
 }
 
 .footer__contact li:first-child {
-    background: url(/images/icons/map.svg) left center no-repeat;
+    background: url(../images/icons/map.svg) left center no-repeat;
 }
 
 .footer__contact li:nth-child(2) {
-    background: url(/images/icons/phone.svg) left center no-repeat;
+    background: url(../images/icons/phone.svg) left center no-repeat;
 }
 
 .footer__contact li:last-child {
-    background: url(/images/icons/envelope.svg) left center no-repeat;
+    background: url(../images/icons/envelope.svg) left center no-repeat;
 }
 
 .footer__social ul {

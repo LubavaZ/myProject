@@ -1,10 +1,3 @@
-/*
-* Prefixed by https://autoprefixer.github.io
-* PostCSS: v7.0.29,
-* Autoprefixer: v9.7.6
-* Browsers: last 4 version
-*/
-
 .gallery {
     margin-top: 140px;
 }
@@ -133,20 +126,20 @@
 
 .arrows .slick-arrow.slick-prev {
     left: 18px;
-    background: url(/images/icons/arrow-left.svg) no-repeat center center, #fff;
+    background: url(../images/icons/arrow-left.svg) no-repeat center center, #fff;
 }
 
 .arrows .slick-arrow.slick-prev:hover {
-    background: url(/images/icons/arrow-left.svg) no-repeat center center, #F2F2F2;
+    background: url(../images/icons/arrow-left.svg) no-repeat center center, #F2F2F2;
 }
 
 .arrows .slick-arrow.slick-next {
     left: 93px;
-    background: url(/images/icons/arrow-right.svg) no-repeat center center, #fff;
+    background: url(../images/icons/arrow-right.svg) no-repeat center center, #fff;
 }
 
 .arrows .slick-arrow.slick-next:hover {
-    background: url(/images/icons/arrow-right.svg) no-repeat center center, #F2F2F2;
+    background: url(../images/icons/arrow-right.svg) no-repeat center center, #F2F2F2;
 }
 
 .sliderNumbers, .sliderNumbers_2 {
@@ -252,14 +245,14 @@
     letter-spacing: 0.2em;
     text-transform: uppercase;
     color: #333333;
-    background: url(/images/icons/arrow-right.svg) 75% center no-repeat, #FFFFFF;
+    background: url(../images/icons/arrow-right.svg) 75% center no-repeat, #FFFFFF;
     -webkit-transition: ease .5s;
     -o-transition: ease .5s;
     transition: ease .5s;
 }
 
 .button_light a:hover {
-    background: url(/images/icons/arrow-right.svg) 85% center no-repeat, #F3F3F3;
+    background: url(../images/icons/arrow-right.svg) 85% center no-repeat, #F3F3F3;
 }
 
 @media (max-width: 800px) {
@@ -606,7 +599,7 @@
     display: block;
     width: 13px;
     height: 13px;
-    background: url(/images/icons/check.svg) no-repeat;
+    background: url(../images/icons/check.svg) no-repeat;
     opacity: 0;
     -webkit-transition: 0.5s;
     -o-transition: 0.5s;
@@ -625,7 +618,7 @@
     letter-spacing: 0.2em;
     text-transform: uppercase;
     color: #FFFFFF;
-    background: url(/images/icons/arrow-right-light.svg) 75% center no-repeat, #333333;
+    background: url(../images/icons/arrow-right-light.svg) 75% center no-repeat, #333333;
     cursor: pointer;
     -webkit-transition: ease .5s;
     -o-transition: ease .5s;
@@ -633,7 +626,7 @@
 }
 
 .button_sub:hover {
-    background: url(/images/icons/arrow-right-light.svg) 85% center no-repeat, black;
+    background: url(../images/icons/arrow-right-light.svg) 85% center no-repeat, black;
     -webkit-box-shadow: 1px 1px 16px 5px rgba(51, 51, 51, 0.5);
     box-shadow: 1px 1px 16px 5px rgba(51, 51, 51, 0.5);
 }
