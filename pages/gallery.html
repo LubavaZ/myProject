@@ -1,0 +1,552 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@300;400;700;900&display=swap"
+        rel="stylesheet">
+    <title>Digital project</title>
+    <link rel="apple-touch-icon" sizes="60x60" href="/images/fvc/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/images/fvc/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/images/fvc/favicon-16x16.png">
+    <link rel="manifest" href="/images/fvc/site.webmanifest">
+    <link rel="mask-icon" href="/images/fvc/safari-pinned-tab.svg" color="#5bbad5">
+    <meta name="msapplication-TileColor" content="#da532c">
+    <meta name="theme-color" content="#ffffff">
+    <link rel="stylesheet" type="text/css" href="slick/slick.css">
+    <link rel="stylesheet" href="/css/normolize.css">
+    <link rel="stylesheet" href="/css/headerFooter.css">
+    <link rel="stylesheet" href="/css/GPCC.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/baguettebox.js/1.11.1/baguetteBox.min.css"
+        integrity="sha512-NVt7pmp5f+3eWRPO1h4A1gCf4opn4r5z2wS1mi7AaVcTzE9wDJ6RzMqSygjDzYHLp+mAJ2/qzXXDHar6IQwddQ=="
+        crossorigin="anonymous" />
+</head>
+
+<body>
+    <div class="preloader">
+        <svg class="preloader__image" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+            <path fill="#fff"
+                d="M304 48c0 26.51-21.49 48-48 48s-48-21.49-48-48 21.49-48 48-48 48 21.49 48 48zm-48 368c-26.51 0-48 21.49-48 48s21.49 48 48 48 48-21.49 48-48-21.49-48-48-48zm208-208c-26.51 0-48 21.49-48 48s21.49 48 48 48 48-21.49 48-48-21.49-48-48-48zM96 256c0-26.51-21.49-48-48-48S0 229.49 0 256s21.49 48 48 48 48-21.49 48-48zm12.922 99.078c-26.51 0-48 21.49-48 48s21.49 48 48 48 48-21.49 48-48c0-26.509-21.491-48-48-48zm294.156 0c-26.51 0-48 21.49-48 48s21.49 48 48 48 48-21.49 48-48c0-26.509-21.49-48-48-48zM108.922 60.922c-26.51 0-48 21.49-48 48s21.49 48 48 48 48-21.49 48-48-21.491-48-48-48z">
+            </path>
+        </svg>
+    </div>
+    <header>
+        <div class="wrapper">
+            <div class="logo">
+                <a href="/index.html"><img src="/images/logo.svg" alt="логотип" title="логотип"></a>
+            </div>
+            <div class="burger-menu">
+                <input type="checkbox" id="checkbox">
+                <label for="checkbox"></label>
+                <div class="burger-line first"></div>
+                <div class="burger-line second"></div>
+                <div class="burger-line third"></div>
+                <nav class="burger-menu__list">
+                    <ul>
+                        <li><a href="/index.html" title="Главная страница сайта">ГЛАВНАЯ</a></li>
+                        <li><a href="gallery.html" title="Галерея">ГАЛЕРЕЯ</a></li>
+                        <li><a href="projects.html" title="Проекты компании">ПРОЕКТЫ</a></li>
+                        <li><a href="certificates.html" title="Наши сертификаты">СЕРТИФИКАТЫ</a></li>
+                        <li><a href="contacts.html" title="Контакты для связи">КОНТАКТЫ</a></li>
+                    </ul>
+                </nav>
+            </div>
+            <nav class="menu">
+                <ul>
+                    <li><a href="/index.html" title="Главная страница сайта">ГЛАВНАЯ</a></li>
+                    <li><a href="gallery.html" title="Галерея">ГАЛЕРЕЯ</a></li>
+                    <li><a href="projects.html" title="Проекты компании">ПРОЕКТЫ</a></li>
+                    <li><a href="certificates.html" title="Наши сертификаты">СЕРТИФИКАТЫ</a></li>
+                    <li><a href="contacts.html" title="Контакты для связи">КОНТАКТЫ</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <div class="wrapper">
+        <section class="gallery">
+            <h2 class="title_h2">галерея<br><span>фотографий</span></h2>
+            <div class="gallery__inner">
+                <div class="gallery__slider">
+                    <div class="gallery__slider_item">
+                        <div class="gallery__item">
+                            <a href="/images/gallery_01.png"><img src="/images/gallery_1.png"
+                                    alt="Ресепшн главного офиса компании." title="Ресепшн главного офиса компании."></a>
+                            <div class="gallery__info">
+                                <p>Ресепшн главного офиса компании.</p>
+                            </div>
+                        </div>
+                        <div class="gallery__item">
+                            <a href="/images/gallery_02.png"><img src="/images/gallery_2.png"
+                                    alt="Маяк города Дальний на берегу Неизвестного моря."
+                                    title="Маяк города Дальний на берегу Неизвестного моря."></a>
+                            <div class="gallery__info">
+                                <p>Маяк города Дальний на берегу Неизвестного моря.</p>
+                            </div>
+                        </div>
+                        <div class="gallery__item">
+                            <a href="/images/gallery_03.png"><img src="/images/gallery_3.png"
+                                    alt="Оранжерея экзотических и редких растений"
+                                    title="Оранжерея экзотических и редких растений"></a>
+                            <div class="gallery__info">
+                                <p>Оранжерея экзотических и редких растений.</p>
+                            </div>
+                        </div>
+                        <div class="gallery__item">
+                            <a href="/images/gallery_04.png"><img src="/images/gallery_4.png"
+                                    alt="Главная обзорная башня города Придуманного."
+                                    title="Главная обзорная башня города Придуманного."></a>
+                            <div class="gallery__info">
+                                <p>Главная обзорная башня города Придуманного.</p>
+                            </div>
+                        </div>
+                        <div class="gallery__item">
+                            <a href="/images/gallery_05.png"><img src="/images/gallery_5.png"
+                                    alt="Храм, находящийся в процессе реставрации."
+                                    title="Храм, находящийся в процессе реставрации."></a>
+                            <div class="gallery__info">
+                                <p>Храм, находящийся в процессе реставрации.</p>
+                            </div>
+                        </div>
+                        <div class="gallery__item">
+                            <a href="/images/gallery_06.png"><img src="/images/gallery_6.png"
+                                    alt="Отделка внутренней части храмов." title="Отделка внутренней части храмов."></a>
+                            <div class="gallery__info">
+                                <p>Отделка внутренней части храмов.</p>
+                            </div>
+                        </div>
+                        <div class="gallery__item">
+                            <a href="/images/gallery_07.png"><img src="/images/gallery_7.png"
+                                    alt="Жилой комплекс на цетральной улице города Спасения."
+                                    title="Жилой комплекс на цетральной улице города Спасения."></a>
+                            <div class="gallery__info">
+                                <p>Жилой комплекс на цетральной улице города Спасения.</p>
+                            </div>
+                        </div>
+                        <div class="gallery__item">
+                            <a href="/images/gallery_08.png"><img src="/images/gallery_8.png"
+                                    alt="Здание театра на Главной площади города Незабытого"
+                                    title="Здание театра на Главной площади города Незабытого"></a>
+                            <div class="gallery__info">
+                                <p>Здание театра на Главной площади города Незабытого.</p>
+                            </div>
+                        </div>
+                        <div class="gallery__item">
+                            <a href="/images/gallery_09.png"><img src="/images/gallery_9.png"
+                                    alt="Вокзал Водного города страны Утопии."
+                                    title="Вокзал Водного города страны Утопии."></a>
+                            <div class="gallery__info">
+                                <p>Вокзал Водного города страны Утопии.</p>
+                            </div>
+                        </div>
+                        <div class="gallery__item">
+                            <a href="/images/gallery_010.png"><img src="/images/gallery_10.png"
+                                    alt="Комплекс офисных зданий в центре столицы."
+                                    title="Комплекс офисных зданий в центре столицы."></a>
+                            <div class="gallery__info">
+                                <p>Комплекс офисных зданий в центре столицы.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="gallery__slider_item">
+                        <div class="gallery__item">
+                            <a href="/images/gallery_011.jpg"><img src="/images/gallery_11.jpg" alt="Фото из галереии"
+                                    title="Фото из галереии"></a>
+                            <div class="gallery__info">
+                                <p>Описание или пояснение к изображению.</p>
+                            </div>
+                        </div>
+                        <div class="gallery__item">
+                            <a href="/images/gallery_012.jpg"><img src="/images/gallery_12.jpg" alt="Фото из галереии"
+                                    title="Фото из галереии"></a>
+                            <div class="gallery__info">
+                                <p>Описание или пояснение к изображению.</p>
+                            </div>
+                        </div>
+                        <div class="gallery__item">
+                            <a href="/images/gallery_013.jpg"><img src="/images/gallery_13.jpg" alt="Фото из галереии"
+                                    title="Фото из галереии"></a>
+                            <div class="gallery__info">
+                                <p>Описание или пояснение к изображению.</p>
+                            </div>
+                        </div>
+                        <div class="gallery__item">
+                            <a href="/images/gallery_014.jpg"><img src="/images/gallery_14.jpg" alt="Фото из галереии"
+                                    title="Фото из галереии"></a>
+                            <div class="gallery__info">
+                                <p>Описание или пояснение к изображению.</p>
+                            </div>
+                        </div>
+                        <div class="gallery__item">
+                            <a href="/images/gallery_015.jpg"><img src="/images/gallery_15.jpg" alt="Фото из галереии"
+                                    title="Фото из галереии"></a>
+                            <div class="gallery__info">
+                                <p>Описание или пояснение к изображению.</p>
+                            </div>
+                        </div>
+                        <div class="gallery__item">
+                            <a href="/images/gallery_016.jpg"><img src="/images/gallery_16.jpg" alt="Фото из галереии"
+                                    title="Фото из галереии"></a>
+                            <div class="gallery__info">
+                                <p>Описание или пояснение к изображению.</p>
+                            </div>
+                        </div>
+                        <div class="gallery__item">
+                            <a href="/images/gallery_017.jpg"><img src="/images/gallery_17.jpg" alt="Фото из галереии"
+                                    title="Фото из галереии"></a>
+                            <div class="gallery__info">
+                                <p>Описание или пояснение к изображению.</p>
+                            </div>
+                        </div>
+                        <div class="gallery__item">
+                            <a href="/images/gallery_018.jpg"><img src="/images/gallery_18.jpg" alt="Фото из галереии"
+                                    title="Фото из галереии"></a>
+                            <div class="gallery__info">
+                                <p>Описание или пояснение к изображению.</p>
+                            </div>
+                        </div>
+                        <div class="gallery__item">
+                            <a href="/images/gallery_019.jpg"><img src="/images/gallery_19.jpg" alt="Фото из галереии"
+                                    title="Фото из галереии"></a>
+                            <div class="gallery__info">
+                                <p>Описание или пояснение к изображению.</p>
+                            </div>
+                        </div>
+                        <div class="gallery__item">
+                            <a href="/images/gallery_020.jpg"><img src="/images/gallery_20.jpg" alt="Фото из галереии"
+                                    title="Фото из галереии"></a>
+                            <div class="gallery__info">
+                                <p>Описание или пояснение к изображению.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="gallery__slider_item">
+                        <div class="gallery__item">
+                            <a href="/images/gallery_01.png"><img src="/images/gallery_1.png"
+                                    alt="Ресепшн главного офиса компании." title="Ресепшн главного офиса компании."></a>
+                            <div class="gallery__info">
+                                <p>Ресепшн главного офиса компании.</p>
+                            </div>
+                        </div>
+                        <div class="gallery__item">
+                            <a href="/images/gallery_02.png"><img src="/images/gallery_2.png"
+                                    alt="Маяк города Дальний на берегу Неизвестного моря."
+                                    title="Маяк города Дальний на берегу Неизвестного моря."></a>
+                            <div class="gallery__info">
+                                <p>Маяк города Дальний на берегу Неизвестного моря.</p>
+                            </div>
+                        </div>
+                        <div class="gallery__item">
+                            <a href="/images/gallery_03.png"><img src="/images/gallery_3.png"
+                                    alt="Оранжерея экзотических и редких растений"
+                                    title="Оранжерея экзотических и редких растений"></a>
+                            <div class="gallery__info">
+                                <p>Оранжерея экзотических и редких растений.</p>
+                            </div>
+                        </div>
+                        <div class="gallery__item">
+                            <a href="/images/gallery_04.png"><img src="/images/gallery_4.png"
+                                    alt="Главная обзорная башня города Придуманного."
+                                    title="Главная обзорная башня города Придуманного."></a>
+                            <div class="gallery__info">
+                                <p>Главная обзорная башня города Придуманного.</p>
+                            </div>
+                        </div>
+                        <div class="gallery__item">
+                            <a href="/images/gallery_05.png"><img src="/images/gallery_5.png"
+                                    alt="Храм, находящийся в процессе реставрации."
+                                    title="Храм, находящийся в процессе реставрации."></a>
+                            <div class="gallery__info">
+                                <p>Храм, находящийся в процессе реставрации.</p>
+                            </div>
+                        </div>
+                        <div class="gallery__item">
+                            <a href="/images/gallery_06.png"><img src="/images/gallery_6.png"
+                                    alt="Отделка внутренней части храмов." title="Отделка внутренней части храмов."></a>
+                            <div class="gallery__info">
+                                <p>Отделка внутренней части храмов.</p>
+                            </div>
+                        </div>
+                        <div class="gallery__item">
+                            <a href="/images/gallery_07.png"><img src="/images/gallery_7.png"
+                                    alt="Жилой комплекс на цетральной улице города Спасения."
+                                    title="Жилой комплекс на цетральной улице города Спасения."></a>
+                            <div class="gallery__info">
+                                <p>Жилой комплекс на цетральной улице города Спасения.</p>
+                            </div>
+                        </div>
+                        <div class="gallery__item">
+                            <a href="/images/gallery_08.png"><img src="/images/gallery_8.png"
+                                    alt="Здание театра на Главной площади города Незабытого"
+                                    title="Здание театра на Главной площади города Незабытого"></a>
+                            <div class="gallery__info">
+                                <p>Здание театра на Главной площади города Незабытого.</p>
+                            </div>
+                        </div>
+                        <div class="gallery__item">
+                            <a href="/images/gallery_09.png"><img src="/images/gallery_9.png"
+                                    alt="Вокзал Водного города страны Утопии."
+                                    title="Вокзал Водного города страны Утопии."></a>
+                            <div class="gallery__info">
+                                <p>Вокзал Водного города страны Утопии.</p>
+                            </div>
+                        </div>
+                        <div class="gallery__item">
+                            <a href="/images/gallery_010.png"><img src="/images/gallery_10.png"
+                                    alt="Комплекс офисных зданий в центре столицы."
+                                    title="Комплекс офисных зданий в центре столицы."></a>
+                            <div class="gallery__info">
+                                <p>Комплекс офисных зданий в центре столицы.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="gallery__slider_item">
+                        <div class="gallery__item">
+                            <a href="/images/gallery_011.jpg"><img src="/images/gallery_11.jpg" alt="Фото из галереии"
+                                    title="Фото из галереии"></a>
+                            <div class="gallery__info">
+                                <p>Описание или пояснение к изображению.</p>
+                            </div>
+                        </div>
+                        <div class="gallery__item">
+                            <a href="/images/gallery_012.jpg"><img src="/images/gallery_12.jpg" alt="Фото из галереии"
+                                    title="Фото из галереии"></a>
+                            <div class="gallery__info">
+                                <p>Описание или пояснение к изображению.</p>
+                            </div>
+                        </div>
+                        <div class="gallery__item">
+                            <a href="/images/gallery_013.jpg"><img src="/images/gallery_13.jpg" alt="Фото из галереии"
+                                    title="Фото из галереии"></a>
+                            <div class="gallery__info">
+                                <p>Описание или пояснение к изображению.</p>
+                            </div>
+                        </div>
+                        <div class="gallery__item">
+                            <a href="/images/gallery_014.jpg"><img src="/images/gallery_14.jpg" alt="Фото из галереии"
+                                    title="Фото из галереии"></a>
+                            <div class="gallery__info">
+                                <p>Описание или пояснение к изображению.</p>
+                            </div>
+                        </div>
+                        <div class="gallery__item">
+                            <a href="/images/gallery_015.jpg"><img src="/images/gallery_15.jpg" alt="Фото из галереии"
+                                    title="Фото из галереии"></a>
+                            <div class="gallery__info">
+                                <p>Описание или пояснение к изображению.</p>
+                            </div>
+                        </div>
+                        <div class="gallery__item">
+                            <a href="/images/gallery_016.jpg"><img src="/images/gallery_16.jpg" alt="Фото из галереии"
+                                    title="Фото из галереии"></a>
+                            <div class="gallery__info">
+                                <p>Описание или пояснение к изображению.</p>
+                            </div>
+                        </div>
+                        <div class="gallery__item">
+                            <a href="/images/gallery_017.jpg"><img src="/images/gallery_17.jpg" alt="Фото из галереии"
+                                    title="Фото из галереии"></a>
+                            <div class="gallery__info">
+                                <p>Описание или пояснение к изображению.</p>
+                            </div>
+                        </div>
+                        <div class="gallery__item">
+                            <a href="/images/gallery_018.jpg"><img src="/images/gallery_18.jpg" alt="Фото из галереии"
+                                    title="Фото из галереии"></a>
+                            <div class="gallery__info">
+                                <p>Описание или пояснение к изображению.</p>
+                            </div>
+                        </div>
+                        <div class="gallery__item">
+                            <a href="/images/gallery_019.jpg"><img src="/images/gallery_19.jpg" alt="Фото из галереии"
+                                    title="Фото из галереии"></a>
+                            <div class="gallery__info">
+                                <p>Описание или пояснение к изображению.</p>
+                            </div>
+                        </div>
+                        <div class="gallery__item">
+                            <a href="/images/gallery_020.jpg"><img src="/images/gallery_20.jpg" alt="Фото из галереии"
+                                    title="Фото из галереии"></a>
+                            <div class="gallery__info">
+                                <p>Описание или пояснение к изображению.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="gallery__slider_item">
+                        <div class="gallery__item">
+                            <a href="/images/gallery_01.png"><img src="/images/gallery_1.png"
+                                    alt="Ресепшн главного офиса компании." title="Ресепшн главного офиса компании."></a>
+                            <div class="gallery__info">
+                                <p>Ресепшн главного офиса компании.</p>
+                            </div>
+                        </div>
+                        <div class="gallery__item">
+                            <a href="/images/gallery_02.png"><img src="/images/gallery_2.png"
+                                    alt="Маяк города Дальний на берегу Неизвестного моря."
+                                    title="Маяк города Дальний на берегу Неизвестного моря."></a>
+                            <div class="gallery__info">
+                                <p>Маяк города Дальний на берегу Неизвестного моря.</p>
+                            </div>
+                        </div>
+                        <div class="gallery__item">
+                            <a href="/images/gallery_03.png"><img src="/images/gallery_3.png"
+                                    alt="Оранжерея экзотических и редких растений"
+                                    title="Оранжерея экзотических и редких растений"></a>
+                            <div class="gallery__info">
+                                <p>Оранжерея экзотических и редких растений.</p>
+                            </div>
+                        </div>
+                        <div class="gallery__item">
+                            <a href="/images/gallery_04.png"><img src="/images/gallery_4.png"
+                                    alt="Главная обзорная башня города Придуманного."
+                                    title="Главная обзорная башня города Придуманного."></a>
+                            <div class="gallery__info">
+                                <p>Главная обзорная башня города Придуманного.</p>
+                            </div>
+                        </div>
+                        <div class="gallery__item">
+                            <a href="/images/gallery_05.png"><img src="/images/gallery_5.png"
+                                    alt="Храм, находящийся в процессе реставрации."
+                                    title="Храм, находящийся в процессе реставрации."></a>
+                            <div class="gallery__info">
+                                <p>Храм, находящийся в процессе реставрации.</p>
+                            </div>
+                        </div>
+                        <div class="gallery__item">
+                            <a href="/images/gallery_06.png"><img src="/images/gallery_6.png"
+                                    alt="Отделка внутренней части храмов." title="Отделка внутренней части храмов."></a>
+                            <div class="gallery__info">
+                                <p>Отделка внутренней части храмов.</p>
+                            </div>
+                        </div>
+                        <div class="gallery__item">
+                            <a href="/images/gallery_07.png"><img src="/images/gallery_7.png"
+                                    alt="Жилой комплекс на цетральной улице города Спасения."
+                                    title="Жилой комплекс на цетральной улице города Спасения."></a>
+                            <div class="gallery__info">
+                                <p>Жилой комплекс на цетральной улице города Спасения.</p>
+                            </div>
+                        </div>
+                        <div class="gallery__item">
+                            <a href="/images/gallery_08.png"><img src="/images/gallery_8.png"
+                                    alt="Здание театра на Главной площади города Незабытого"
+                                    title="Здание театра на Главной площади города Незабытого"></a>
+                            <div class="gallery__info">
+                                <p>Здание театра на Главной площади города Незабытого.</p>
+                            </div>
+                        </div>
+                        <div class="gallery__item">
+                            <a href="/images/gallery_09.png"><img src="/images/gallery_9.png"
+                                    alt="Вокзал Водного города страны Утопии."
+                                    title="Вокзал Водного города страны Утопии."></a>
+                            <div class="gallery__info">
+                                <p>Вокзал Водного города страны Утопии.</p>
+                            </div>
+                        </div>
+                        <div class="gallery__item">
+                            <a href="/images/gallery_010.png"><img src="/images/gallery_10.png"
+                                    alt="Комплекс офисных зданий в центре столицы."
+                                    title="Комплекс офисных зданий в центре столицы."></a>
+                            <div class="gallery__info">
+                                <p>Комплекс офисных зданий в центре столицы.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="pointers">
+                    <div class="sliderNumbers">
+                        <div>
+                            <p><span class="number_first">01</span><span class="line"></span>05</p>
+                        </div>
+                        <div>
+                            <p><span class="number_first">02</span><span class="line"></span>05</p>
+                        </div>
+                        <div>
+                            <p><span class="number_first">03</span><span class="line"></span>05</p>
+                        </div>
+                        <div>
+                            <p><span class="number_first">04</span><span class="line"></span>05</p>
+                        </div>
+                        <div>
+                            <p><span class="number_first">05</span><span class="line"></span>05</p>
+                        </div>
+                    </div>
+                    <div class="arrows"></div>
+                </div>
+            </div>
+        </section>
+    </div>
+    <footer>
+        <div class="wrapper">
+            <div class="footer">
+                <div class="footer__item footer__logo">
+                    <a href="/index.html"><img src="/images/logo-footer.svg" alt="логотип" title="логотип"></a>
+                </div>
+                <div class="footer__item footer__info">
+                    <h4>Информация</h4>
+                    <ul>
+                        <li><a href="/index.html">Главная</a></li>
+                        <li><a href="gallery.html">Галерея</a></li>
+                        <li><a href="projects.html">Проекты</a></li>
+                        <li><a href="certificates.html">Сертификаты</a></li>
+                        <li><a href="contacts.html">Контакты</a></li>
+                    </ul>
+                </div>
+                <div class="footer__item footer__contact">
+                    <h4>Контакты</h4>
+                    <ul>
+                        <li>100000, Республика Казахстан,<br>г. Караганда, ул. Телевизионная 10</li>
+                        <li><a href="tel:+7(701)7776811">+7 (701) 77 76 811</a></li>
+                        <li><a href="mailto:Galym.sultanov@mail.ru">Galym.sultanov@mail.ru</a></li>
+                    </ul>
+                </div>
+                <div class="footer__item footer__social">
+                    <h4>Социальные сети</h4>
+                    <ul>
+                        <li><a href="#" target="_blank">
+                                <svg width="10" height="19" viewBox="0 0 10 19" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <path fill-rule="evenodd" clip-rule="evenodd"
+                                        d="M6.13698 18.993H2.04598V9.49903H0.000976562V6.22603H2.04598V4.26203C2.04598 1.59303 3.20098 0.00402832 6.47898 0.00402832H9.20898V3.27703H7.50398C6.22598 3.27703 6.14198 3.73503 6.14198 4.58903L6.13698 6.22603H9.22898L8.86698 9.49903H6.13698V18.993Z"
+                                        fill="white" />
+                                </svg></a></li>
+                        <li><a href="#" target="_blank">
+                                <svg width="22" height="17" viewBox="0 0 22 17" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <path fill-rule="evenodd" clip-rule="evenodd"
+                                        d="M21.008 1.89598C20.235 2.21798 19.404 2.43298 18.533 2.53098C19.423 2.03098 20.106 1.23898 20.428 0.296977C19.594 0.758977 18.672 1.09498 17.69 1.27698C16.905 0.490977 15.784 0.000976562 14.545 0.000976562C12.165 0.000976562 10.234 1.80998 10.234 4.03998C10.234 4.35698 10.272 4.66598 10.346 4.96098C6.764 4.79198 3.588 3.18398 1.462 0.740977C1.091 1.33798 0.879 2.03098 0.879 2.77198C0.879 4.17198 1.64 5.40998 2.796 6.13398C2.09 6.11198 1.426 5.93098 0.844 5.62798C0.844 5.64598 0.844 5.66098 0.844 5.67998C0.844 7.63698 2.329 9.26898 4.301 9.63998C3.94 9.73198 3.558 9.77998 3.166 9.77998C2.888 9.77998 2.618 9.75598 2.355 9.70998C2.903 11.313 4.495 12.482 6.381 12.515C4.906 13.598 3.048 14.243 1.028 14.243C0.68 14.243 0.337 14.224 0 14.187C1.907 15.332 4.173 16.002 6.607 16.002C14.535 16.002 18.87 9.84598 18.87 4.50898C18.87 4.33298 18.865 4.15998 18.857 3.98598C19.699 3.41598 20.43 2.70498 21.008 1.89598Z"
+                                        fill="white" />
+                                </svg></a></li>
+                        <li><a href="#" target="_blank">
+                                <svg width="20" height="20" viewBox="0 0 20 20" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <path fill-rule="evenodd" clip-rule="evenodd"
+                                        d="M18.512 19.013H1.48799C0.671986 19.013 0.0109863 18.434 0.0109863 17.72V2.28199C0.0109863 1.56899 0.671986 0.98999 1.48799 0.98999H18.512C19.327 0.98999 19.988 1.56899 19.988 2.28199V17.72C19.988 18.434 19.327 19.013 18.512 19.013ZM3.47299 16.044H6.41499V7.90699H3.47299V16.044ZM4.96399 3.98499C3.95699 3.98499 3.29999 4.59199 3.29999 5.39099C3.29999 6.17099 3.93799 6.79699 4.92499 6.79699H4.94399C5.96999 6.79699 6.60799 6.17099 6.60799 5.39099C6.58999 4.59199 5.96999 3.98499 4.96399 3.98499ZM17.023 11.379C17.023 8.87899 15.571 7.71599 13.636 7.71599C12.074 7.71599 11.376 8.50499 10.985 9.05999V7.90699H8.04299C8.08199 8.67099 8.04299 16.044 8.04299 16.044H10.985V11.5C10.985 11.258 11.004 11.014 11.082 10.841C11.294 10.355 11.779 9.85199 12.591 9.85199C13.656 9.85199 14.081 10.598 14.081 11.692V16.044H17.023V11.379ZM10.965 9.08699C10.971 9.07799 10.979 9.06899 10.985 9.05999V9.08699H10.965Z"
+                                        fill="white" />
+                                </svg></a></li>
+                        <li><a href="#" target="_blank">
+                                <svg width="14" height="19" viewBox="0 0 14 19" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <path fill-rule="evenodd" clip-rule="evenodd"
+                                        d="M7.42398 0C2.48898 0 0.000976562 3.522 0.000976562 6.46C0.000976562 8.238 0.676977 9.82 2.12798 10.41C2.36598 10.507 2.57898 10.413 2.64798 10.151C2.69598 9.97 2.80998 9.512 2.85998 9.321C2.92998 9.062 2.90298 8.971 2.71098 8.745C2.29198 8.254 2.02498 7.618 2.02498 6.717C2.02498 4.104 3.98898 1.765 7.13898 1.765C9.92798 1.765 11.46 3.462 11.46 5.727C11.46 8.709 10.135 11.225 8.16698 11.225C7.08098 11.225 6.26798 10.33 6.52798 9.233C6.84098 7.924 7.44498 6.51 7.44498 5.564C7.44498 4.718 6.98898 4.012 6.04398 4.012C4.93398 4.012 4.04198 5.156 4.04198 6.688C4.04198 7.665 4.37298 8.325 4.37298 8.325C4.37298 8.325 3.23598 13.119 3.03698 13.959C2.63998 15.631 2.97798 17.681 3.00598 17.889C3.02298 18.011 3.18098 18.04 3.25298 17.948C3.35498 17.814 4.67798 16.189 5.12798 14.564C5.25498 14.104 5.85798 11.722 5.85798 11.722C6.21898 12.407 7.27398 13.011 8.39498 13.011C11.734 13.011 13.999 9.98 13.999 5.924C13.999 2.857 11.39 0 7.42398 0Z"
+                                        fill="white" />
+                                </svg></a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="copy">
+            <p>&copy; 2019 Digital Project. Все права защищены.</p>
+        </div>
+    </footer>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="/js/slick.min.js"></script>
+    <script src="/js/script.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/baguettebox.js/1.11.1/baguetteBox.min.js"
+        integrity="sha512-7KzSt4AJ9bLchXCRllnyYUDjfhO2IFEWSa+a5/3kPGQbr+swRTorHQfyADAhSlVHCs1bpFdB1447ZRzFyiiXsg=="
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
