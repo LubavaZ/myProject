@@ -450,70 +450,24 @@ main {
     padding-top: 11px;
 }
 
-.contact__item input::-webkit-input-placeholder, .contact__item textarea::-webkit-input-placeholder {
-    font-size: 1.2rem;
-    line-height: 18px;
-    letter-spacing: 0.04em;
-    color: #8D8D8D;
-}
-
-.contact__item input::-moz-placeholder, .contact__item textarea::-moz-placeholder {
-    font-size: 1.2rem;
-    line-height: 18px;
-    letter-spacing: 0.04em;
-    color: #8D8D8D;
-}
-
-.contact__item input:-ms-input-placeholder, .contact__item textarea:-ms-input-placeholder {
-    font-size: 1.2rem;
-    line-height: 18px;
-    letter-spacing: 0.04em;
-    color: #8D8D8D;
-}
-
-.contact__item input::-ms-input-placeholder, .contact__item textarea::-ms-input-placeholder {
-    font-size: 1.2rem;
-    line-height: 18px;
-    letter-spacing: 0.04em;
-    color: #8D8D8D;
-}
-
 .contact__item input::placeholder, .contact__item textarea::placeholder {
-    font-size: 1.2rem;
-    line-height: 18px;
-    letter-spacing: 0.04em;
-    color: #8D8D8D;
-}
-
-.contact__item input::-moz-placeholder, .contact__item textarea::-moz-placeholder, .contact__item input::-webkit-input-placeholder, .contact__item textarea::-webkit-input-placeholder {
     font-size: 1.2rem;
     line-height: 1.5rem;
     letter-spacing: 0.04em;
     color: #8D8D8D;
 }
 
-.star {
-    position: absolute;
-    color: #C30000;
+.contact__item input::placeholder, .contact__item textarea::placeholder, .contact__item input::-ms-input-placeholder, .contact__item textarea::-ms-input-placeholder, .contact__item input::-moz-placeholder, .contact__item textarea::-moz-placeholder, .contact__item input::-webkit-input-placeholder, .contact__item textarea::-webkit-input-placeholder {
+    font-size: 1.2rem;
+    line-height: 1.5rem;
+    letter-spacing: 0.04em;
+    color: #8D8D8D;
 }
 
-.item_tel .star {
-    top: 15px;
-    left: 133px;
-}
-
-.item_email .star {
-    top: 15px;
-    left: 61px;
-}
-
-.item_textarea .star {
-    top: 14px;
-    left: 98px;
-}
-
-.item_tel input:focus~.star, .item_email input:focus~.star, .item_textarea textarea:focus~.star {
+#attention, #attention_2, #attention_3 {
+    color: rgba(195, 0, 0, 1);
     display: none;
+    padding-top: 2px;
 }
 
 .checkbox {
@@ -633,15 +587,6 @@ main {
     }
     .contact__form {
         margin-right: 0;
-    }
-    .item_tel .star {
-        left: 125px;
-    }
-    .item_email .star {
-        left: 59px;
-    }
-    .item_textarea .star {
-        left: 92px;
     }
 }
 

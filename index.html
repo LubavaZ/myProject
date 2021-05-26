@@ -183,24 +183,24 @@
             <h2 class="title_h2">Связаться с нами</h2>
             <div class="contact__inner">
                 <div class="contact__form">
-                    <form action="#" method="POST">
+                    <form id="info" name="info" action="http://fe.it-academy.by/TestForm.php" method="POST">
                         <div class="contact__item">
                             <input type="text" name="im" placeholder="Имя">
                         </div>
                         <div class="contact__item item_tel">
-                            <input type="text" name="numb" placeholder="Номер телефона">
-                            <span class="star">*</span>
+                            <input id="phone" type="tel" name="tel" placeholder="Номер телефона*">
+                            <span id="attention_2"></span>
                         </div>
                         <div class="contact__item item_email">
-                            <input type="text" name="email" placeholder="E-mail">
-                            <span class="star">*</span>
+                            <input id="email" type="text" name="email" placeholder="E-mail*">
+                            <span id="attention"></span>
                         </div>
                         <div class="contact__item">
                             <input type="text" name="item" placeholder="Интересующий товар/услуга">
                         </div>
                         <div class="contact__item item_textarea">
-                            <textarea name="message" placeholder="Сообщение"></textarea>
-                            <span class="star">*</span>
+                            <textarea id="message" name="message" placeholder="Сообщение*"></textarea>
+                            <span id="attention_3"></span>
                         </div>
                         <div class="checkbox">
                             <label>
@@ -277,10 +277,10 @@
             <p>&copy; 2019 Digital Project. Все права защищены.</p>
         </div>
     </footer>
-
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
     <script src="js/slick.min.js"></script>
     <script src="js/script.js"></script>
+    <script src="js/validation.js"></script>
 </body>
 
 </html>

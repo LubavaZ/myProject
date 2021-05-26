@@ -285,9 +285,19 @@
     }
 }
 
+@media (max-width: 450px) {
+    .gallery__item {
+        margin-right: 0;
+    }
+}
+
 @media (max-width: 350px) {
-    .arrows {
+    .sliderNumbers, .sliderNumbers_2 {
         display: none;
+    }
+    .arrows, .certificates .arrows {
+        left: 0;
+        margin-left: calc(50% - 90px)!important;
     }
     .projects .pointers {
         margin-bottom: 0;
@@ -536,28 +546,10 @@
     color: #8D8D8D;
 }
 
-.star {
-    position: absolute;
-    color: #C30000;
-}
-
-.item_tel .star {
-    top: 15px;
-    left: 110px;
-}
-
-.item_email .star {
-    top: 15px;
-    left: 53px;
-}
-
-.item_textarea .star {
-    top: 12px;
-    left: 82px;
-}
-
-.item_tel input:focus~.star, .item_email input:focus~.star, .item_textarea textarea:focus~.star {
+#attention, #attention_2, #attention_3 {
+    color: rgba(195, 0, 0, 1);
     display: none;
+    padding-top: 2px;
 }
 
 .checkbox {
@@ -632,18 +624,6 @@
 }
 
 /*popup end*/
-
-@media (max-width: 956px) {
-    .item_tel .star {
-        left: 102px;
-    }
-    .item_email .star {
-        left: 50px;
-    }
-    .item_textarea .star {
-        left: 76px;
-    }
-}
 
 @media (max-width: 900px) {
     .contacts {
