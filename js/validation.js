@@ -1,15 +1,14 @@
-
 var formElement = document.forms.info;
 formElement.onsubmit = validateInfoForm;
 
 function validateInfoForm() {
-    var re = /^\d[\d\(\)\ -]{4,14}\d$/;
+    var re = /^(?!\+.*\(.*\).*\-\-.*$)(?!\+.*\(.*\).*\-$)(([0-9]{0,12})?(\+[0-9]{3,12})?(\([0-9]{2})?(\)[0-9]{10})?)$/;
     var myPhone = document.getElementById('phone').value;
     var borderMyPhone = document.getElementById('phone');
     var attentionForMyPhone = document.getElementById('attention_2');
     var valid = re.test(myPhone);
 
-    var re_2 = /^[\w-\.]+@[\w-]+\.[a-z]{2,4}$/i;
+    var re_2 = /^(?!.*@.*@.*$)(?!.*@.*\-\-.*\..*$)(?!.*@.*\-\..*$)(?!.*@.*\-$)(.*@.+(\..{1,11})?)$/;
     var myMail = document.getElementById('email').value;
     var borderMyMail = document.getElementById('email');
     var attentionForMyMail = document.getElementById('attention');
@@ -19,7 +18,7 @@ function validateInfoForm() {
     var borderMyMessage = document.getElementById('message');
     var attentionForMyMessage = document.getElementById('attention_3');
 
-    if (valid == false) {
+    if (valid == false || !myPhone.length) {
         output = 'Номер телефона введен неправильно!';
         attentionForMyPhone.style.display = 'inline-block';
         attentionForMyPhone.innerHTML = output;

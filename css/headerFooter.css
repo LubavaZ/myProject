@@ -21,7 +21,7 @@ body {
     bottom: 0;
     overflow: hidden;
     /* фоновый цвет */
-    background: #C6D8E2;
+    background: #fff;
     z-index: 10001;
 }
 
@@ -35,6 +35,10 @@ body {
     margin-left: -35px;
     text-align: center;
     animation: preloader-rotate 2s infinite linear;
+}
+
+.preloader svg {
+    fill: #333333;
 }
 
 @keyframes preloader-rotate {
