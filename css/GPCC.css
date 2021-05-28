@@ -93,7 +93,7 @@
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
-    -webkit-box-align: start;
+    -webkit-box-align: t;
     -ms-flex-align: start;
     align-items: flex-start;
 }

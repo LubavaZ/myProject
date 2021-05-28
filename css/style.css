@@ -588,6 +588,9 @@ main {
     .contact__form {
         margin-right: 0;
     }
+    .checkbox label {
+        margin-top: 3px;
+    }
 }
 
 @media (max-width: 800px) {
@@ -728,6 +731,9 @@ main {
     }
     .contact {
         margin-bottom: 0;
+    }
+    .checkbox label {
+        margin-top: 0;
     }
     .about {
         margin-bottom: 70px;
