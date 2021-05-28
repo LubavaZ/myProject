@@ -1,4 +1,5 @@
 //слайдер для главной страницы
+
 $(document).ready(function () {
     $('.slider').slick({
         speed: 2000,
@@ -11,7 +12,9 @@ $(document).ready(function () {
             {
                 breakpoint: 800,
                 settings: {
-                    autoplay: false
+                    autoplay: false,
+                    speed: 1000,
+                    waitForAnimate: false,
                 }
             }
         ]
@@ -28,13 +31,17 @@ $(document).ready(function () {
             {
                 breakpoint: 800,
                 settings: {
-                    autoplay: false
+                    autoplay: false,
+                    speed: 1000,
+                    waitForAnimate: false,
                 }
             }
         ]
     })
 });
+
 //слайдеры для страницы с галереей и проектами
+
 $(document).ready(function () {
     $('.gallery__slider, .projects__slider').slick({
         speed: 1700,
@@ -42,14 +49,34 @@ $(document).ready(function () {
         slideToShow: 1,
         appendArrows: $('.arrows'),
         asNavFor: ".sliderNumbers",
+        responsive: [
+            {
+                breakpoint: 800,
+                settings: {
+                    speed: 1000,
+                    waitForAnimate: false,
+                }
+            }
+        ]
     })
     $('.sliderNumbers').slick({
         arrows: false,
         speed: 1700,
         fade: true,
         asNavFor: ".gallery__slider, .projects__slider",
+        responsive: [
+            {
+                breakpoint: 800,
+                settings: {
+                    speed: 1000,
+                    waitForAnimate: false,
+                }
+            }
+        ]
     })
 });
+
+// слайдер для страницы со сертификатами
 
 $(document).ready(function () {
     $('.certificates__slider').slick({
@@ -65,7 +92,9 @@ $(document).ready(function () {
                 breakpoint: 800,
                 settings: {
                     slidesToShow: 2,
-                    slidesToScroll: 1
+                    slidesToScroll: 1,
+                    speed: 1000,
+                    waitForAnimate: false,
                 }
             },
             {
@@ -83,9 +112,21 @@ $(document).ready(function () {
         slidesToShow: 1,
         slidesToScroll: 1,
         speed: 1200,
-        asNavFor: '.certificates__slider'
+        asNavFor: '.certificates__slider',
+        responsive: [
+            {
+                breakpoint: 800,
+                settings: {
+                    speed: 1000,
+                    waitForAnimate: false,
+                }
+            }
+        ]
     })
 });
+
+// специальный слайдер для просмотра фотографий
+
 window.addEventListener('load', function () {
     baguetteBox.run('.gallery', {
         overlayBackgroundColor: 'rgba(51, 51, 51, 0.8)',
@@ -100,5 +141,5 @@ window.addEventListener('load', function () {
 
 $(window).on('load', function () {
     var $preloader = $('.preloader');
-    $preloader.delay(800).fadeOut('slow');
+    $preloader.delay(900).fadeOut('slow');
 })
