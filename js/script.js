@@ -144,4 +144,4 @@ $(window).on('load', function () {
     $preloader.delay(900).fadeOut('slow');
 })
 
-console.dir('Some changes')
+console.dir('Check updating')
