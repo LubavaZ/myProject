@@ -144,5 +144,4 @@ $(window).on('load', function () {
     $preloader.delay(900).fadeOut('slow');
 })
 
-console.dir('Check updating')
-console.dir('Lol')
+console.dir('New branch was created')
