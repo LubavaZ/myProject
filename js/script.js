@@ -145,3 +145,4 @@ $(window).on('load', function () {
 })
 
 console.dir('Check updating')
+console.dir('Lol')
